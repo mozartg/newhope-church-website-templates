@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Hope Community Church - Olive & Gold</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>:root{--primary:#3b3c36;--accent:#c5a572;--text:#f5f0e8;--bg:#3b3c36;--card-bg:rgba(255,255,255,0.06);--border:rgba(255,255,255,0.1)}*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:'Open Sans',sans-serif;background:var(--bg);color:var(--text);overflow-x:hidden}h1,h2,h3,h4,h5,h6{font-family:'Montserrat',sans-serif;font-weight:700;letter-spacing:-0.02em;line-height:0.95}.label-text{font-family:'Montserrat',sans-serif;font-weight:600;font-size:12px;letter-spacing:0.18em;text-transform:uppercase}.btn-primary{display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--accent);color:var(--primary);font-weight:600;border-radius:999px;text-decoration:none;border:none;cursor:pointer;transition:all .3s}.btn-primary:hover{transform:scale(1.05);filter:brightness(1.1)}.btn-secondary{display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:var(--text);font-weight:600;border-radius:999px;border:2px solid rgba(255,255,255,0.2);cursor:pointer;text-decoration:none;transition:all .3s}.btn-secondary:hover{background:rgba(255,255,255,0.05);border-color:rgba(255,255,255,0.3)}.card-glass{background:var(--card-bg);border:1px solid var(--border);backdrop-filter:blur(10px)}nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:20px 6vw;display:flex;justify-content:space-between;align-items:center;transition:all .3s}nav.scrolled{background:rgba(59,60,54,0.93);backdrop-filter:blur(10px);padding:12px 6vw}nav .logo{font-family:'Montserrat',sans-serif;font-weight:700;font-size:20px;color:var(--text);text-decoration:none}nav .nav-links{display:flex;gap:32px;list-style:none}nav .nav-links a{color:var(--text);text-decoration:none;font-size:14px;font-weight:500;opacity:0.8;transition:opacity .3s}nav .nav-links a:hover{opacity:1;color:var(--accent)}.menu-toggle{display:none;background:none;border:none;color:var(--text);font-size:24px;cursor:pointer}@media(max-width:768px){.menu-toggle{display:block}nav .nav-links{display:none;position:absolute;top:100%;left:0;right:0;background:rgba(59,60,54,0.96);flex-direction:column;padding:20px 6vw;gap:20px}nav .nav-links.active{display:flex}}.hero{min-height:100vh;display:flex;align-items:center;position:relative;background:linear-gradient(135deg,var(--primary) 0%,rgba(59,60,54,0.93) 50%,rgba(59,60,54,0.6) 100%),url('../shared/congregation.jpg');background-size:cover;background-position:center}.hero-content{width:100%;padding:120px 6vw 60px;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;max-width:1400px;margin:0 auto}.hero h1{font-size:clamp(44px,6vw,84px);margin-bottom:24px}.hero p{font-size:18px;opacity:0.8;max-width:480px;margin-bottom:32px;line-height:1.65}.hero-buttons{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:32px}.info-card{border-radius:24px;padding:32px;max-width:380px;justify-self:end}.info-card h3{font-size:18px;margin-bottom:20px}.info-row{display:flex;align-items:start;gap:12px;margin-bottom:16px}.info-row svg{width:20px;height:20px;color:var(--accent);flex-shrink:0;margin-top:2px}.info-row p:first-child{font-weight:600;font-size:14px}.info-row p:last-child{font-size:14px;opacity:0.7}@media(max-width:768px){.hero-content{grid-template-columns:1fr;gap:40px}.info-card{justify-self:start;width:100%}.hero h1{font-size:40px}}.mission{min-height:100vh;display:flex;align-items:center;justify-content:center;position:relative;background:linear-gradient(135deg,rgba(59,60,54,0.93) 0%,rgba(59,60,54,0.8) 100%),url('../shared/smallgroup.jpg');background-size:cover;background-position:center;text-align:center;padding:80px 6vw}.mission-content{max-width:720px}.mission h2{font-size:clamp(36px,5vw,64px);margin-bottom:24px}.mission p{font-size:18px;opacity:0.8;margin-bottom:32px;line-height:1.65}.value-tags{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-bottom:24px}.value-tag{display:flex;align-items:center;gap:8px;padding:12px 20px;background:rgba(255,255,255,0.1);border-radius:999px;font-size:14px;font-weight:500}.value-tag svg{width:18px;height:18px;color:var(--accent)}.visit{min-height:100vh;display:flex;align-items:center;position:relative;background:linear-gradient(135deg,rgba(59,60,54,0.94) 0%,rgba(59,60,54,0.82) 100%),url('../shared/worship.jpg');background-size:cover;background-position:center;padding:80px 6vw}.visit-header{text-align:center;margin-bottom:48px}.visit-header h2{font-size:clamp(36px,5vw,64px);margin-bottom:16px}.visit-grid{display:grid;grid-template-columns:1fr 1fr;gap:32px;max-width:1000px;margin:0 auto}.visit-card{border-radius:24px;padding:32px}.visit-card h3{font-size:20px;margin-bottom:20px;display:flex;align-items:center;gap:10px}.visit-card h3 svg{width:24px;height:24px;color:var(--accent)}.expect-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.expect-item{display:flex;align-items:start;gap:10px;padding:12px;background:rgba(255,255,255,0.05);border-radius:12px}.expect-item svg{width:18px;height:18px;color:var(--accent);flex-shrink:0;margin-top:2px}.expect-item p:first-child{font-weight:600;font-size:13px}.expect-item p:last-child{font-size:12px;opacity:0.6}.service-row{padding:16px;background:rgba(255,255,255,0.05);border-radius:12px;margin-bottom:10px}.service-row-header{display:flex;justify-content:space-between;margin-bottom:4px}.service-row-header p{font-weight:600;font-size:14px}.service-row-header span{color:var(--accent);font-size:13px;font-weight:600}.service-row-info{font-size:12px;opacity:0.5}.location-box{display:flex;align-items:start;gap:10px;padding:14px;background:rgba(197,165,114,0.08);border-radius:12px;margin:16px 0}.location-box svg{width:18px;height:18px;color:var(--accent);flex-shrink:0;margin-top:2px}@media(max-width:768px){.visit-grid{grid-template-columns:1fr}.expect-grid{grid-template-columns:1fr}}.contact{background:#f8f6f0;padding:80px 6vw;position:relative}.contact::before{content:'';position:absolute;top:0;left:0;right:0;height:100px;background:linear-gradient(to bottom,var(--primary),transparent)}.contact-header{text-align:center;margin-bottom:48px;position:relative;z-index:1}.contact-header h2{font-size:clamp(36px,5vw,56px);color:var(--primary);margin-bottom:12px}.contact-header p{font-size:18px;color:rgba(59,60,54,0.67)}.contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;max-width:1100px;margin:0 auto;position:relative;z-index:1}@media(max-width:768px){.contact-grid{grid-template-columns:1fr}}.contact-card{background:rgba(255,255,255,0.7);border:1px solid rgba(59,60,54,0.06);border-radius:20px;padding:28px}.contact-card-header{display:flex;align-items:center;gap:12px;margin-bottom:20px}.icon-circle{width:44px;height:44px;border-radius:50%;background:rgba(197,165,114,0.13);display:flex;align-items:center;justify-content:center}.icon-circle svg{width:22px;height:22px;color:var(--accent)}.contact-card h3{font-size:18px;color:var(--primary)}.contact-card p{color:rgba(59,60,54,0.6);font-size:14px;margin-bottom:8px}.contact-card .link{color:var(--accent);font-size:14px;font-weight:600;text-decoration:none}.contact-card input,.contact-card textarea{width:100%;padding:10px 14px;background:rgba(255,255,255,0.5);border:1px solid rgba(59,60,54,0.08);border-radius:10px;color:var(--primary);font-size:14px;margin-bottom:10px;outline:none}.contact-card input:focus,.contact-card textarea:focus{border-color:var(--accent)}.contact-card input::placeholder{color:rgba(59,60,54,0.31)}footer{background:var(--primary);padding:48px 6vw;border-top:1px solid rgba(255,255,255,0.05)}.footer-content{max-width:1100px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:24px}.footer-content h4{font-family:'Montserrat',sans-serif;font-size:20px;color:var(--text);margin-bottom:8px}.footer-links{display:flex;gap:16px;flex-wrap:wrap}.footer-links a{color:rgba(245,240,232,0.5);text-decoration:none;font-size:13px;display:flex;align-items:center;gap:4px}.footer-links a:hover{color:var(--accent)}.social-links{display:flex;gap:12px}.social-links a{width:38px;height:38px;border-radius:50%;background:rgba(255,255,255,0.08);display:flex;align-items:center;justify-content:center;color:var(--text);text-decoration:none;transition:all .3s}.social-links a:hover{background:var(--accent);color:var(--primary)}.copyright{text-align:center;padding-top:32px;margin-top:32px;border-top:1px solid rgba(255,255,255,0.05);color:rgba(245,240,232,0.31);font-size:13px}@keyframes fadeIn{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}.animate-fade{animation:fadeIn 0.8s ease-out forwards;opacity:0}.delay-1{animation-delay:0.1s}.delay-2{animation-delay:0.2s}.delay-3{animation-delay:0.3s}</style>
+</head>
+<body>
+    <nav id="navbar">
+        <a href="#" class="logo">New Hope</a>
+        <button class="menu-toggle" onclick="document.querySelector('.nav-links').classList.toggle('active')">&#9776;</button>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#mission">Mission</a></li>
+            <li><a href="#visit">Visit</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="animate-fade">
+                <span class="label-text" style="color:var(--accent);display:block;margin-bottom:16px">New Hope Community Church</span>
+                <h1>WELCOME<br>HOME</h1>
+                <p>A place where faith, family, and community meet. Join us this Sunday.</p>
+                <div class="hero-buttons">
+                    <a href="#visit" class="btn-primary">Plan Your Visit &rarr;</a>
+                    <a href="#contact" class="btn-secondary">Contact Us</a>
+                </div>
+                <a href="../pastor-bio.html" style="display:flex;align-items:center;gap:12px;color:rgba(245,240,232,0.5);text-decoration:none;transition:color .3s" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='rgba(245,240,232,0.5)'">
+                    <div style="width:40px;height:40px;border-radius:50%;overflow:hidden;border:2px solid rgba(197,165,114,0.5)">
+                        <img src="../shared/pastor.jpg" alt="Pastor" style="width:100%;height:100%;object-fit:cover">
+                    </div>
+                    <span style="font-size:14px;font-weight:500">Meet Pastor James</span>
+                </a>
+            </div>
+            <div class="info-card card-glass animate-fade delay-2">
+                <h3>Service Times</h3>
+                <div class="info-row">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    <div><p>Sunday Worship</p><p>10:00 AM</p></div>
+                </div>
+                <div class="info-row">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                    <div><p>Wednesday Prayer</p><p>7:00 PM</p></div>
+                </div>
+                <div class="info-row">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    <div><p>Location</p><p>123 Faith Avenue, Rochester NY</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mission" id="mission">
+        <div class="mission-content animate-fade">
+            <span class="label-text" style="color:var(--accent);display:block;margin-bottom:16px">Our Purpose</span>
+            <h2>OUR MISSION</h2>
+            <p>To love God, love people, and lead the next generation to follow Jesus—here at home and around the world.</p>
+            <div class="value-tags">
+                <div class="value-tag">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                    Love God
+                </div>
+                <div class="value-tag">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    Love People
+                </div>
+                <div class="value-tag">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                    Lead the Next Generation
+                </div>
+            </div>
+            <p style="font-size:14px;opacity:0.5">Led by Pastor James & First Lady Michelle Williams</p>
+        </div>
+    </section>
+
+    <section class="visit" id="visit">
+        <div style="width:100%;max-width:1000px;margin:0 auto">
+            <div class="visit-header animate-fade">
+                <span class="label-text" style="color:var(--accent);display:block;margin-bottom:16px">Plan Your Visit</span>
+                <h2>VISIT US</h2>
+                <p>We'd love to welcome you to New Hope. Here's everything you need to know.</p>
+            </div>
+            <div class="visit-grid">
+                <div class="visit-card card-glass animate-fade delay-1">
+                    <h3><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>What to Expect</h3>
+                    <div class="expect-grid">
+                        <div class="expect-item"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><div><p>Service Length</p><p>90 minutes</p></div></div>
+                        <div class="expect-item"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M20.38 3.46L16 2a4 4 0 01-8 0L3.62 3.46a2 2 0 00-1.34 2.23l.58 3.47a1 1 0 00.99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 002-2V10h2.15a1 1 0 00.99-.84l.58-3.47a2 2 0 00-1.34-2.23z"/></svg><div><p>Dress Code</p><p>Come as you are</p></div></div>
+                        <div class="expect-item"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg><div><p>Childcare</p><p>All ages</p></div></div>
+                        <div class="expect-item"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg><div><p>Parking</p><p>Free on-site</p></div></div>
+                        <div class="expect-item"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><div><p>Accessibility</p><p>Wheelchair</p></div></div>
+                        <div class="expect-item"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 010 8h-1"/><path d="M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg><div><p>Fellowship</p><p>Coffee after</p></div></div>
+                    </div>
+                </div>
+                <div class="visit-card card-glass animate-fade delay-2">
+                    <h3><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>Service Schedule</h3>
+                    <div class="service-row"><div class="service-row-header"><p>Morning Worship</p><span>10:00 AM</span></div><div class="service-row-info">Sunday &bull; Main Sanctuary</div></div>
+                    <div class="service-row"><div class="service-row-header"><p>Midweek Prayer</p><span>7:00 PM</span></div><div class="service-row-info">Wednesday &bull; Fellowship Hall</div></div>
+                    <div class="service-row"><div class="service-row-header"><p>Youth Ministry</p><span>6:00 PM</span></div><div class="service-row-info">Friday &bull; Youth Center</div></div>
+                    <div class="location-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        <div><p style="font-weight:600;font-size:14px">Location</p><p style="font-size:13px;opacity:0.6">123 Faith Avenue, Rochester NY 14604</p></div>
+                    </div>
+                    <button class="btn-primary" style="width:100%;justify-content:center" onclick="alert('Thank you! Our welcome team will look out for you. Sunday 10:00 AM')">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="width:18px;height:18px"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        I'm Coming Sunday!
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-header animate-fade">
+            <span class="label-text" style="color:var(--accent);display:block;margin-bottom:16px">Get In Touch</span>
+            <h2>We'd love to meet you.</h2>
+            <p>Visit on a Sunday, send a note, or call the office.</p>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-card animate-fade delay-1">
+                <div class="contact-card-header">
+                    <div class="icon-circle"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+                    <h3>Service Times</h3>
+                </div>
+                <p style="font-weight:600;color:var(--primary)">Sunday Worship</p><p>10:00 AM</p>
+                <p style="font-weight:600;color:var(--primary);margin-top:12px">Wednesday Prayer</p><p>7:00 PM</p>
+                <p style="font-weight:600;color:var(--primary);margin-top:12px">Friday Youth</p><p>6:00 PM</p>
+            </div>
+            <div class="contact-card animate-fade delay-2">
+                <div class="contact-card-header">
+                    <div class="icon-circle"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+                    <h3>Location</h3>
+                </div>
+                <p style="font-weight:600;color:var(--primary)">New Hope Community Church</p>
+                <p>123 Faith Avenue</p>
+                <p>Rochester, NY 14604</p>
+                <a href="https://maps.google.com" target="_blank" class="link" style="display:inline-block;margin-top:12px">Get Directions &rarr;</a>
+            </div>
+            <div class="contact-card animate-fade delay-3">
+                <div class="contact-card-header">
+                    <div class="icon-circle"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+                    <h3>Send a Message</h3>
+                </div>
+                <form onsubmit="event.preventDefault();alert('Thank you! We will get back to you soon.');this.reset()">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="2" required style="margin-bottom:12px"></textarea>
+                    <button type="submit" class="btn-primary" style="width:100%;justify-content:center;font-size:14px;padding:10px">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="width:16px;height:16px"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h4>New Hope</h4>
+                <div class="footer-links">
+                    <a href="tel:5855550123"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="width:14px;height:14px"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>(585) 555-0123</a>
+                    <a href="mailto:hello@newhopechurch.org"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="width:14px;height:14px"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>hello@newhopechurch.org</a>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="#" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                <a href="#" aria-label="YouTube"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.13C5.12 19.56 12 19.56 12 19.56s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.43z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg></a>
+                <a href="#" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+            </div>
+        </div>
+        <div class="copyright">&copy; 2025 New Hope Community Church. All rights reserved.</div>
+    </footer>
+
+    <script>window.addEventListener('scroll',()=>{document.getElementById('navbar').classList.toggle('scrolled',window.scrollY>50)})</script>
+</body>
+</html>
