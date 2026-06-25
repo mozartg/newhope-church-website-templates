@@ -1,1 +1,75 @@
-See next push
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet Pastor James & First Lady Michelle - New Hope Community Church</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Open Sans', sans-serif; background: #1a1a1a; color: #F7F7F5; overflow-x: hidden; }
+        h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', sans-serif; font-weight: 700; letter-spacing: -0.02em; }
+        nav { position: fixed; top: 0; left: 0; right: 0; background: rgba(26,26,26,0.95); backdrop-filter: blur(10px); z-index: 1000; padding: 16px 40px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(212,160,61,0.2); }
+        .nav-logo { font-family: 'Montserrat', sans-serif; font-weight: 800; color: #D4A03D; font-size: 18px; }
+        .nav-links { display: flex; gap: 30px; list-style: none; }
+        .nav-links a { color: #F7F7F5; text-decoration: none; font-size: 14px; font-weight: 600; transition: color 0.3s; }
+        .nav-links a:hover { color: #D4A03D; }
+        .hero { min-height: 70vh; display: flex; align-items: center; justify-content: center; text-align: center; padding: 120px 20px 60px; background: linear-gradient(135deg, #2B1E2A 0%, #1a1a1a 100%); position: relative; }
+        .hero::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 100px; background: linear-gradient(to top, #1a1a1a, transparent); }
+        .hero-content { position: relative; z-index: 2; }
+        .hero h1 { font-size: clamp(36px, 5vw, 64px); margin-bottom: 16px; }
+        .hero h1 span { color: #D4A03D; }
+        .hero p { font-size: clamp(16px, 2vw, 20px); color: #ccc; max-width: 600px; margin: 0 auto; }
+        .section { padding: 80px 20px; max-width: 1100px; margin: 0 auto; }
+        .section-title { font-size: clamp(28px, 3.5vw, 40px); margin-bottom: 16px; text-align: center; color: #D4A03D; }
+        .section-subtitle { text-align: center; color: #888; font-size: 16px; margin-bottom: 50px; }
+        .cards-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; margin-bottom: 60px; }
+        .card { background: rgba(255,255,255,0.04); border: 1px solid rgba(212,160,61,0.15); border-radius: 20px; overflow: hidden; transition: transform 0.4s, box-shadow 0.4s; }
+        .card:hover { transform: translateY(-8px); box-shadow: 0 25px 50px rgba(0,0,0,0.4); }
+        .card-image { width: 100%; height: 400px; object-fit: cover; display: block; }
+        .card-body { padding: 32px; }
+        .card-body h3 { font-size: 24px; margin-bottom: 8px; }
+        .card-body .role { color: #D4A03D; font-size: 14px; font-weight: 600; margin-bottom: 16px; display: block; }
+        .card-body p { color: #aaa; line-height: 1.7; font-size: 15px; margin-bottom: 12px; }
+        .story { background: rgba(255,255,255,0.02); border-radius: 20px; padding: 50px; border: 1px solid rgba(255,255,255,0.06); }
+        .story h3 { font-size: 24px; margin-bottom: 20px; color: #D4A03D; }
+        .story p { color: #bbb; line-height: 1.8; margin-bottom: 16px; font-size: 15px; }
+        .scripture { text-align: center; padding: 60px 20px; font-style: italic; color: #888; font-size: 18px; border-top: 1px solid rgba(255,255,255,0.06); margin-top: 40px; }
+        .scripture span { color: #D4A03D; display: block; margin-top: 12px; font-style: normal; font-weight: 600; }
+        .cta { text-align: center; padding: 80px 20px; background: linear-gradient(135deg, #2B1E2A 0%, #1a1a1a 100%); }
+        .cta h2 { font-size: 32px; margin-bottom: 16px; }
+        .cta p { color: #888; margin-bottom: 30px; }
+        .cta-button { display: inline-block; padding: 16px 40px; background: #D4A03D; color: #1a1a1a; text-decoration: none; border-radius: 50px; font-weight: 700; font-size: 16px; transition: transform 0.3s, box-shadow 0.3s; }
+        .cta-button:hover { transform: translateY(-3px); box-shadow: 0 10px 30px rgba(212,160,61,0.3); }
+        footer { padding: 40px 20px; text-align: center; color: #555; font-size: 14px; border-top: 1px solid rgba(255,255,255,0.06); }
+        footer a { color: #D4A03D; text-decoration: none; }
+        @media (max-width: 768px) { .nav-links { display: none; } .cards-grid { grid-template-columns: 1fr; } .story { padding: 30px; } .card-image { height: 300px; } }
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+        .fade-in { animation: fadeInUp 0.8s ease forwards; opacity: 0; }
+    </style>
+</head>
+<body>
+    <nav><div class="nav-logo">New Hope Community Church</div><ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="#pastor">Pastor</a></li><li><a href="#story">Our Story</a></li></ul></nav>
+    <section class="hero"><div class="hero-content fade-in"><h1>Meet Our <span>Leaders</span></h1><p>Dedicated servants called by God to lead, teach, and shepherd our congregation with love and faith.</p></div></section>
+    <section class="section" id="pastor">
+        <h2 class="section-title fade-in">Pastor & First Lady</h2>
+        <p class="section-subtitle fade-in">The heart and vision behind New Hope Community Church</p>
+        <div class="cards-grid">
+            <div class="card fade-in">
+                <img src="PASTOR_B64" alt="Pastor James Williams" class="card-image">
+                <div class="card-body"><h3>Pastor James Williams</h3><span class="role">Senior Pastor & Founder</span><p>Pastor James has been serving the Rochester community for over 20 years. With a heart for people and a passion for God's Word, he founded New Hope Community Church in 2004 with just 12 members meeting in a living room. Today, the church serves hundreds of families across the region.</p><p>His ministry focuses on building strong families, empowering youth, and creating a welcoming space where everyone can experience the transformative love of Christ. Pastor James holds a Master of Divinity and is known for his dynamic preaching and genuine care for the community.</p></div>
+            </div>
+            <div class="card fade-in">
+                <img src="FIRSTLADY_B64" alt="First Lady Michelle Williams" class="card-image">
+                <div class="card-body"><h3>First Lady Michelle Williams</h3><span class="role">Co-Pastor & Women's Ministry Director</span><p>First Lady Michelle is the backbone of New Hope's community outreach. With her background in counseling and her gift of hospitality, she leads the Women's Ministry, Marriage Enrichment programs, and the church's food pantry that serves over 200 families monthly.</p><p>Her "Sisters in Faith" women's group has become a cornerstone of spiritual growth for women throughout Rochester. Michelle's warmth and wisdom have touched countless lives, and she continues to be a shining example of grace and servant leadership.</p></div>
+            </div>
+        </div>
+        <div class="story fade-in" id="story"><h3>Our Story</h3><p>New Hope Community Church was born from a prayer and a vision. In 2004, Pastor James and First Lady Michelle felt called by God to plant a church that would be a beacon of hope in Rochester, NY. What started as a small Bible study in their home has grown into a thriving community of faith.</p><p>Through every season, the church has remained committed to its founding principles: authentic worship, relevant teaching, genuine community, and compassionate outreach. Whether you're taking your first steps in faith or looking for a church home, you'll find family here at New Hope.</p><p>"For I know the plans I have for you," declares the LORD, "plans to prosper you and not to harm you, plans to give you hope and a future." — Jeremiah 29:11</p></div>
+    </section>
+    <div class="scripture"><p>"And let us consider how we may spur one another on toward love and good deeds, not giving up meeting together, as some are in the habit of doing, but encouraging one another."</p><span>— Hebrews 10:24-25</span></div>
+    <section class="cta"><h2 class="fade-in">Come Worship With Us</h2><p class="fade-in">We'd love to welcome you into our church family.</p><a href="index.html" class="cta-button fade-in">Back to Designs</a></section>
+    <footer><p>New Hope Community Church | 123 Faith Avenue, Rochester NY 14604 | (585) 555-0123</p><p><a href="mailto:hello@newhopechurch.org">hello@newhopechurch.org</a></p></footer>
+    <script>const observer=new IntersectionObserver((e)=>{e.forEach(n=>{if(n.isIntersecting){n.target.style.opacity='1';n.target.style.transform='translateY(0)'}})},{threshold:0.1});document.querySelectorAll('.fade-in').forEach(el=>observer.observe(el));</script>
+</body>
+</html>
